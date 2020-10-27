@@ -1,0 +1,38 @@
+## Updates to QC'd data
+
+
+# jun 2020 
+#hinkley
+df = pso.maskBest(df,0,lastindex=2976)
+#fishguard
+df = pso.swapBest(df, 2, 433)
+#mumbles
+df = pso.maskBest(df,2490,lastindex=2492)
+#lerwick
+df = pso.maskBest(df, 0, lastindex=39)\n"
+
+# jul2020 
+#hinkley
+df = pso.maskBest(df,0,lastindex=2976)
+
+# aug2020
+#hinkley
+df = swapBest(df, 1, 2112, lastindex=2976)
+df = maskBest(df, 0, lastindex=2111)
+#lowestoft
+df = pso.maskBest(df,2649)
+df = pso.maskChannel(df,1,2649)
+df = pso.maskChannel(df,2,2649)
+#mumbles
+df = pso.maskBest(df,513,lastindex=515)
+df = pso.maskBest(df,2347,lastindex=2351)
+df = pso.maskBest(df,1958)
+
+#sep2020
+#immingham
+df = swapBest(df, 2, 2261, lastindex=2262)
+df = pso.maskBest(df,2263)
+#sep2020 holyhead
+df = pso.maskBest(df,197,lastindex=198)
+#sep2020 mumbles
+df = pso.maskBest(df,466,lastindex=469)
