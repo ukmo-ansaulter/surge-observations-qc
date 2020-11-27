@@ -36,3 +36,11 @@ df = pso.maskBest(df,2263)
 df = pso.maskBest(df,197,lastindex=198)
 #sep2020 mumbles
 df = pso.maskBest(df,466,lastindex=469)
+
+#oct2020
+#cromer
+df = pso.swapBest(df, 2, 1297, lastindex=1305)
+#ilfracombe
+df = pso.swapBest(df, 1, 137, lastindex=163)
+#holyhead
+df = pso.maskBest(df, 0, lastindex=2)
