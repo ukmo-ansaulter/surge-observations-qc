@@ -38,6 +38,8 @@ df = pso.maskBest(df,197,lastindex=198)
 df = pso.maskBest(df,466,lastindex=469)
 
 #oct2020
+# bournemouth
+df = pso.maskChannel(df,1,2640)
 #cromer
 df = pso.swapBest(df, 2, 1297, lastindex=1305)
 #ilfracombe
